@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media/header.css">
 </head>
 <body>
 
 <header>  
   <div class="container header-wrapper">
-    <h1 class="header-title">TestApp</h1>
+    <div class="menu-logo">
+        <button >
+            <i class="fa-solid fa-bars"></i>
+        </button >
+        <h1 class="header-title">TestApp</h1>
+    </div>
     <form class="search-form" action="" method="get">
       <input class="search-input" type="text" name="query" placeholder="検索">
       <button class="search-button" type="submit">検索</button>
     </form>
-    <div class="header-right">
+    <div class="user-action">
       <img src="" alt="通知">
       <img src="" alt="設定">
     </div>
@@ -28,6 +34,6 @@
 <footer>
 </footer>
 
-<script src="index.js"></script>
+<script type="module" src="./js/main.js"></script>
 </body>
 </html>

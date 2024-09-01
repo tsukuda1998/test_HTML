@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .search-input {
+    width: 60%;
+  }
+
+  .search-button {
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .search-input {
+    width: 50%;
+  }
+
+  .search-button {
+    width: 50%;
+  }
+}

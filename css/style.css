@@ -1,7 +1,11 @@
 .container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .search-input,
@@ -30,9 +34,17 @@
 }
 
 .header-wrapper {
-  background-color: rgba(0,255,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.5);
   height: 56px;
   position: relative;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
 }
 
 .header-wrapper form {
@@ -46,13 +58,17 @@
   align-items: center;
 }
 
+.fa-bars {
+  padding-right: 20px;
+  font-size: 24px;
+}
+
 .header-title {
-  float: left;
+  font-size: 24px;
 }
 
 
 .header-right {
-  float: right;
 }
 
 
