@@ -6,7 +6,7 @@
   .search-form {
     margin-top: 65px;
     padding-left: 40px;
-    max-width: 100%;
+    width: 100%;
   }
 
   .search-input {
@@ -26,10 +26,8 @@
 
 @media screen and (max-width: 480px) {
   .search-input {
-    width: 50%;
   }
 
   .search-button {
-    width: 50%;
   }
 }

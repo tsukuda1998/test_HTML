@@ -27,6 +27,7 @@ button {
 
 .search-button {
   width: 30%;
+  max-width: 120px;
   border-left: none;
   border-radius: 0 20px 20px 0;
   background-color: #fff;
@@ -38,7 +39,7 @@ button {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0,0,0,0.5);
-  height: 56px;
+  height: 70px;
   position: relative;
 }
 
@@ -51,27 +52,44 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 400px;
+  width: 50%;
+  min-width: 400px;
 
   text-align: center;
   display: flex;
   align-items: center;
 }
 
+.header-title {
+  font-size: 24px;
+}
+
+
 .user-actions {
+  user-select: none;
+  cursor: default;
 }
-.user-actions img {
-  padding: 0 10px;
+
+.user-actions i:hover {
+  cursor: pointer;
 }
+
 
 .fa-bars {
   padding-right: 20px;
   font-size: 24px;
 }
 
-.header-title {
+.fa-solid.fa-bell {
+  color: #ffffff;
   font-size: 24px;
+  margin: 0 12px;
+}
+
+.fa-solid.fa-cog {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 12px;
 }
 
 
