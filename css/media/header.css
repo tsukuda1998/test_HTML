@@ -1,10 +1,25 @@
 @media screen and (max-width: 768px) {
+  .header-wrapper {
+    height: 120px;
+    align-items: flex-start;
+  }
+  .search-form {
+    margin-top: 65px;
+    padding-left: 40px;
+    max-width: 100%;
+  }
+
   .search-input {
-    width: 60%;
+    width: 80%;
   }
 
   .search-button {
-    width: 40%;
+    width: 85px;
+  }
+
+  .user-actions {
+    margin-top: 20px;
+    margin-right: 10px;
   }
 }
 
